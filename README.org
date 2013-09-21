@@ -1,0 +1,16 @@
+#+title: TEDxLight
+
+Colorful jewlery project proposal for TEDxKraków.
+
+
+
+* Directory structure
+
+- tedx_master - prototype code for Stellaris Launchpad. Drives RGB
+  diode through HSV color space with the use of a potentiometer. When
+  two such circuits meet together (via two pins), they read the color
+  value of their counterpart and both average their colors, thus both
+  shining in the same way.
+
+- tedx_slave - basically tedx_mater, but with hardcoded potentiometer
+  value, because I didn't have another one lying around.
